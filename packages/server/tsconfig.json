@@ -1,0 +1,6 @@
+{
+  "extends": "@client-manager/tsconfig/node.json",
+  "include": [
+    "lib"
+, "../cqrs-utils/lib/execute-command.ts", "../cqrs-utils/lib/types.ts"  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "client-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "biome check --apply ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1",
+    "@types/node": "^20.10.5",
+    "tsx": "^4.6.2",
+    "typescript": "^5.3.3"
+  }
+}
